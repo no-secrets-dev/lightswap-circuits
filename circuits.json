@@ -1,0 +1,10 @@
+{
+  "withdraw_20": {
+    "file": "withdraw",
+    "template": "WithdrawVerifier",
+    "params": [20],
+    "circomOptions": [
+        "./node_modules"
+    ]
+  }
+}
