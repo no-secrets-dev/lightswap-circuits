@@ -8,8 +8,8 @@ Lightswap is a privacy-focused automated market maker (AMM) protocol for Solana 
 
 ## Components
 
-### (`merkleTree.circom`)
-Provides Merkle tree inclusion verification to prove that a commitment exists in the tree of valid deposits.
+### Merkle Tree Circuit (`merkleTree.circom`)
+Verifies authentication path showing a commitment exists in the deposit commitment tree, and that the nullifier hash was in fact derived from the secret (nullifier).
 
 ### Swap Circuit (`swap.circom`)
 Validates mathematical correctness of AMM swap calculations.
